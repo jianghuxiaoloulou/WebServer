@@ -1,0 +1,17 @@
+{
+    "TimeFormat": "2006-01-02 15:04:05.000",
+    "Console"   : {          
+        "level": "DEBG",
+        "color": true
+    },
+    "File": {                   
+        "filename": "./log/log.log",
+        "level"   : "DEBG",
+        "daily"   : false,
+        "maxlines": 1000000,
+        "maxsize" : 20,
+        "maxdays" : 7,
+        "append"  : true,
+        "permit"  : "0660"
+    }
+}
